@@ -3,6 +3,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   border: 1px solid white
   border-width: 70px;
+  display:flex;
 }
 input {
   height: 55px;
