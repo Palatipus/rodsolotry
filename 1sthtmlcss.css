@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid white
+  border-width: 70px;
+}
+input {
+  height: 55px;
+  width: 340px;
+  background-color: black;
+  border: 1.5px solid white;
+  border-radius: 4px;
+  opacity: 0.7;
+  font-size:large;
+}
+input::placeholder {
+  color: white;
+  font-size: smaller;
+  opacity: 0.7;
+  position:absolute;
+  top:0px;
+  left:0;
+}
+input[type="text"]{
+  padding:10px;
+  color:white;
+  font-weight:bolder;
+}
+button {
+  background-color: rgb(62, 51, 211);
+  height: 65px;
+  width: 360px;
+  border: 1px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: blue;
+}
+.continue-with {
+  display: flex;
+  align-items: center;
+  color: white;
+  opacity: 0.7;
+}
+
+.continue-with hr {
+  flex-grow: 0.5;
+  border: none;
+  height: 1px;
+  background-color: white; /* or the color that matches the design */
+}
+
+.continue-with span {
+  padding: 0px 7px; /* Adjust spacing as needed */
+}
+img {
+  background-color: white;
+  height: 50px;
+}
+.arrangement{
+  display:flex;
+  margin-left:400px;
+}
+
+
+  
+}
